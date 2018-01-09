@@ -1,15 +1,17 @@
 /**
  * @author : akira.shinohara
- * @since : 17/12/12
- *
- * パッケージ外から呼び出すことを想定していないため修飾子を指定していません。
+ * @since : 17/12/19
  */
-class Compare {
-    int equal(int i, int j) {
-        if (i == j) {
-            return 1;
-        } else {
-            return 0;
+public class Compare {
+    public int max(int[] arrayInt) {
+        int minInt = Integer.MIN_VALUE;
+
+        for (int ai :arrayInt) {
+            if (minInt < ai) {
+                minInt = ai;
+            }
         }
+
+        return minInt;
     }
 }
