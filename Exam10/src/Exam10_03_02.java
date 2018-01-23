@@ -11,7 +11,7 @@ public class Exam10_03_02 {
         int i = 0;
         String         buf;
         String         lineNum;
-        String         fileName = "src/Exam10_03_01.java";
+        String         fileName = "../Chapter10/src/Rei10_3_1.java";
         boolean        flag     = true;
         BufferedReader br       = null;
 
